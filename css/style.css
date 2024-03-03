@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    text-align: center;
+    background-color: aliceblue;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    
+}
+
+.container-list{
+    width: 60%;
+background-color: aliceblue;
+margin: 60px auto 10px;
+line-height: 0px;
+padding: 15px 0;
+text-align: center;
+}
+
+/* barra ricerca*/
+.container-list input{
+    border-radius: 5px;
+    padding: 5px;
+    border: 0;
+}
+
+.container-list button{
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #14aaf5;
+    color: white;
+}
+.list{
+    background-color: #14aaf5;
+}
