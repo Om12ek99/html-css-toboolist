@@ -1,39 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <title>Toboolist</title>
 </head>
 
 <body>
-    <!--main-->
-    <main>
-        <!--header-->
-        <div class="logo">
-             <img src="./img/logo.png" alt="">
-        </div>
 
-    <!--contenitore liste-->
+    <div class="head_container">
+        <!-- header section -->
+        <header class="main_header">
+            <img class="logo_img" src="./img/logo.png" alt="boolean logo">
+        </header>
+        <!-- /header section -->
+    </div>
 
-         <!--barra ricerca-->   
-        <div class="container-list">
-            <div class="ricerca">
-                <input type="text" placeholder="es. Fare la Spesa">
-                <button class="button"> Add Task</button>
+    <div class="main_container">
+        <main class="content">
+            <!-- search bar -->
+            <div class="search_container">
+                <input type="search" class="search_input round_corn" placeholder="Fare la spesa...">
+                <button class="button_style rounded">Add a task</button>
             </div>
-        
-        <!--LISTA-->
-        <div class="list">
-            <ul>
-                <li class="list-item">TASK PRECEDENTI</li>
-                <li>OGGI</li>
-                <LI>PROSSIMI GIORNI</LI>
+            <!-- /search bar -->
+            <hr>
+            <!-- navigation list-->
+            <ul class="todo_list">
+                <!-- alredy done tasks -->
+                <li class="li_box">&#10148;<span class="macro_todo">TASK PRECEDENTI</span>
+                <li class="article_style">&#9989; <span class="line_thr">Quarterly Newsletter</span> <span
+                        class="edit_style line_thr icon_style">Editorial</span></li>
+                    <!-- today list -->
+                <li class="li_box">&#10148;<span class="macro_todo">OGGI</span>
+                <li class="article_style">&#9989; <span class="line_thr">Recruiting Blog post</span> <span
+                        class="edit_style line_thr icon_style">Editorial</span></li>
+                <li class="article_style">&#9989; <span class="line_thr">Mobile app launch</span> <span
+                        class="q1_clr line_thr icon_style">Q1 Goals</span></li>
+                <li class="article_style">&#10060; <span>Interview Pino Costantino</span> <span
+                        class="recruiting_clr icon_style">Recruiting</span></li>
+                <li class="article_style">&#9989; <span class="line_thr">Pray the Sun</span> <span
+                        class="mobile_clr line_thr icon_style">Mobile</span></li>
+                    <!-- next day list -->
+                <li class="li_box">&#10148;<span class="macro_todo">PROSSIMI GIORNI</span>
+                <li class="article_style">&#10060; <span class="line_thr">Meeting with Alex</span> </li>
+                <li class="article_style">&#9989; <span class="line_thr">Refresh everything</span> <span
+                        class="website_clr line_thr icon_style">Website</span></li>
+                <li class="article_style">&#9989; <span class="line_thr">Go climb a wall</span> <span
+                        class="sales_clr line_thr icon_style">Sales</span></li>
+                <li class="article_style">&#9989; <span class="line_thr">Review a book you haven't</span> <span
+                        class="edit_style line_thr icon_style">Editorial</span></li>
             </ul>
-        </div>
-        </div>
-    </main>
-    
+            <!-- /navigation list-->
+        </main>
+    </div>
+
 </body>
+
 </html>
